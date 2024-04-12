@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -184.73, "left": 143.99, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -74.11,
+      "left": 165.03,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "oled1:GND", "mega:GND.1", "black", [ "v-43.47", "h-61.91" ] ],
+    [ "oled1:VCC", "mega:5V", "red", [ "v-42.57", "h276.66", "v429.04", "h-302.52" ] ],
+    [ "oled1:SCL", "mega:21", "green", [ "v-27.25", "h106.76", "v180.28", "h29.12" ] ],
+    [ "oled1:SDA", "mega:20", "green", [ "v-20.04", "h84.31", "v183.88", "h32.24" ] ],
+    [ "btn1:1.r", "mega:2", "green", [ "v-4.13", "h31.28", "v48.67", "h-21.63" ] ],
+    [ "btn1:2.l", "mega:GND.1", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
