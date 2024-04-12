@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-mega",
+      "id": "mega",
+      "top": 24.22,
+      "left": -62.83,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led-bar-graph",
+      "id": "bargraph1",
+      "top": 26.81,
+      "left": 384.67,
+      "attrs": { "color": "lime" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 111.5,
+      "left": 277.68,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": 81.4,
+      "left": 277.4,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 49.27,
+      "left": 271.7,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 258.6,
+      "left": 425.4,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": 259.18,
+      "left": 368.16,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": 258.6,
+      "left": 300.6,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": 258.6,
+      "left": 233.4,
+      "rotate": 90,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "r3:2", "bargraph1:A8", "#8f4814", [ "h17.74", "v43.9" ] ],
+    [ "r2:2", "bargraph1:A9", "#8f4814", [ "v0" ] ],
+    [ "r1:2", "bargraph1:A10", "#8f4814", [ "v0.52", "h18.08", "v-22.12" ] ],
+    [ "mega:11", "r1:1", "#8f4814", [ "h45.67", "v64.7" ] ],
+    [ "mega:10", "r2:1", "#8f4814", [ "h34.41", "v40.38" ] ],
+    [ "bargraph1:C8", "bargraph1:C9", "black", [ "h0.17", "v9.6" ] ],
+    [ "bargraph1:C10", "bargraph1:C9", "black", [ "h2.3", "v-9.6" ] ],
+    [ "bargraph1:C10", "mega:GND.1", "black", [ "h10.61", "v-100.84", "h-184.34", "v31.04" ] ],
+    [ "btn3:2.r", "btn2:2.r", "black", [ "h-0.2", "v9.8", "h67.76" ] ],
+    [ "btn4:2.r", "btn3:2.r", "black", [ "h0.17", "v9.8", "h66.32", "v-9.8" ] ],
+    [ "mega:9", "r3:1", "#8f4814", [ "h25.54", "v-39.99" ] ],
+    [ "btn1:2.r", "bargraph1:C10", "black", [ "v9.8", "h52", "v-208.38" ] ],
+    [ "btn1:2.r", "btn2:2.r", "black", [ "v9.8", "h-57.24" ] ],
+    [ "mega:2", "btn4:1.l", "orange", [ "h0" ] ],
+    [ "mega:3", "btn3:1.l", "orange", [ "h0" ] ],
+    [ "mega:4", "btn2:1.l", "orange", [ "h0" ] ],
+    [ "mega:5", "btn1:1.l", "orange", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
