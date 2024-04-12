@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 40.01, "left": 1.43, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -117.96,
+      "left": 94.01,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -118.69,
+      "left": 154.05,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -153.22,
+      "left": -89.47,
+      "attrs": { "volume": "0.1" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -1.96,
+      "left": 119.98,
+      "rotate": 90,
+      "attrs": { "value": "200" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r2",
+      "top": -2.03,
+      "left": 148.58,
+      "rotate": 90,
+      "attrs": { "value": "200" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": -1.89,
+      "left": 133.63,
+      "rotate": 90,
+      "attrs": { "value": "200" }
+    }
+  ],
+  "connections": [
+    [ "bz1:1", "led1:C", "black", [ "v31.1", "h171.08" ] ],
+    [ "led2:C", "led1:C", "black", [ "v38.57", "h-60.04" ] ],
+    [ "led1:C", "mega:GND.1", "black", [ "v78.57", "h14.61" ] ],
+    [ "bz1:2", "r2:1", "green", [ "v21.45", "h232.27" ] ],
+    [ "led2:A", "r3:1", "green", [ "v16.8", "h-17.75", "v0.64" ] ],
+    [ "led1:A", "r1:1", "green", [ "v17.34", "h30.8" ] ],
+    [ "r2:2", "mega:8", "green", [ "h0" ] ],
+    [ "r3:2", "mega:9", "green", [ "h0" ] ],
+    [ "r1:2", "mega:10", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

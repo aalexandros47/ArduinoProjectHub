@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 53.59, "left": 25.72, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": -79.86, "left": 252.6, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -96.99, "left": 75.38, "attrs": {} }
+  ],
+  "connections": [
+    [ "imu1:SDA", "mega:20", "green", [ "v-19.33", "h-75.98", "v122.19", "h131.5" ] ],
+    [ "imu1:SCL", "mega:21", "green", [ "v-25.05", "h-92.72", "v123.62", "h147.91" ] ],
+    [ "imu1:GND", "mega:GND.2", "black", [ "v-13.75", "h154.41", "v352.92", "h-267.36" ] ],
+    [ "imu1:VCC", "mega:5V", "red", [ "v1.22", "h129.84", "v346.5", "h-269.5" ] ],
+    [ "oled1:GND", "mega:GND.2", "black", [ "v-16.19", "h-143.87", "v422.95", "h230.29" ] ],
+    [ "oled1:VCC", "mega:5V", "red", [ "v-37.49", "h-132.99", "v426.82", "h237.12" ] ],
+    [ "oled1:SCL", "mega:21", "green", [ "v-44.26", "h70.48", "v166.47", "h170.34" ] ],
+    [ "oled1:SDA", "mega:20", "green", [ "v-40.39", "h47.11", "v171.31", "h150.98" ] ]
+  ],
+  "dependencies": {}
+}

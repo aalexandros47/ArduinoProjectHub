@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-ds1307", "id": "rtc1", "top": -176.57, "left": 320.05, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -154.21, "left": 80.86, "attrs": {} }
+  ],
+  "connections": [
+    [ "oled1:GND", "rtc1:GND", "black", [ "v-21.81", "h122.03", "v-0.51", "h88.49" ] ],
+    [ "oled1:VCC", "rtc1:5V", "red", [ "v-15.54", "h101.95", "v12.14", "h99.12" ] ],
+    [ "oled1:SCL", "rtc1:SCL", "green", [ "v-10.84", "h88.58", "v27.22", "h103.04" ] ],
+    [ "oled1:SDA", "rtc1:SDA", "green", [ "v-6.92", "h70.91", "v15.56", "h110.88" ] ],
+    [ "rtc1:SCL", "mega:21", "green", [ "h-76.45", "v107.83", "h84.4" ] ],
+    [ "rtc1:SDA", "mega:20", "green", [ "h-60.97", "v105.29", "h59.42" ] ],
+    [ "rtc1:5V", "mega:5V", "red", [ "h-46.35", "v107.05", "h197.79", "v261.43", "h-316.49" ] ],
+    [
+      "rtc1:GND",
+      "mega:GND.2",
+      "black",
+      [ "h-31.73", "v105.01", "h192.63", "v262.29", "h-316.2" ]
+    ]
+  ],
+  "dependencies": {}
+}
