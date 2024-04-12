@@ -63,7 +63,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name – arnobg108@gmail.com
+Your Name – Arnob Ghosh
+
+Email - arnobg108@gmail.com
 
 Project Link: [https://github.com/yourusername/ArduinoProjectHub](https://github.com/yourusername/ArduinoProjectHub)
 
