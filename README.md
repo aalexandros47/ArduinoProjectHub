@@ -63,7 +63,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name – [@yourtwitter](https://twitter.com/yourtwitter) - arnobg108@gmail.com
+Your Name – (https://twitter.com/yourtwitter) - arnobg108@gmail.com
 
 Project Link: [https://github.com/yourusername/ArduinoProjectHub](https://github.com/yourusername/ArduinoProjectHub)
 
