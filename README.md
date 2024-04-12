@@ -35,17 +35,17 @@ cd ArduinoProjectHub
 
 ## Projects
 
-1. **Project Name 1**
-   - **Description**: Brief description of the project.
-   - **Components Needed**: List of components required.
-   - **Code**: [Link to project folder or code](#)
+Go through the README files of each project for specific details.
+
+1. **Toggle LED (buzzer)**
+   - **Simulation**: [https://wokwi.com/projects/359800383540049921](#)
 
 2. **Project Name 2**
    - **Description**: Brief description of the project.
    - **Components Needed**: List of components required.
    - **Code**: [Link to project folder or code](#)
 
-Add more projects as they come along.
+
 
 ## Contributing
 
@@ -66,8 +66,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Your Name – Arnob Ghosh
 
 Email - arnobg108@gmail.com
-
-Project Link: [https://github.com/yourusername/ArduinoProjectHub](https://github.com/yourusername/ArduinoProjectHub)
 
 ## Acknowledgements
 
