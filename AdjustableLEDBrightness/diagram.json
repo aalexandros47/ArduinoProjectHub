@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led-bar-graph",
+      "id": "bargraph1",
+      "top": -158.09,
+      "left": 113.97,
+      "attrs": { "color": "lime" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -183.93, "left": 261.22, "attrs": {} }
+  ],
+  "connections": [
+    [ "bargraph1:A10", "mega:2", "green", [ "h-13.71", "v13.32", "h218.04" ] ],
+    [ "bargraph1:A9", "mega:3", "green", [ "h-20.87", "v27.09", "h130.6" ] ],
+    [ "bargraph1:A8", "mega:4", "green", [ "h-25.1", "v43.04", "h125.33" ] ],
+    [ "bargraph1:A7", "mega:5", "green", [ "h-30.75", "v59", "h121.48" ] ],
+    [ "bargraph1:A5", "mega:7", "green", [ "h-44.17", "v86.68", "h115.4" ] ],
+    [ "bargraph1:A4", "mega:8", "green", [ "h-53.36", "v101.23", "h111.59" ] ],
+    [ "bargraph1:A3", "mega:9", "green", [ "h-59.01", "v116.48", "h107.74" ] ],
+    [ "bargraph1:A2", "mega:10", "green", [ "h-65.36", "v131.02", "h104.53" ] ],
+    [ "bargraph1:A1", "mega:11", "green", [ "h-71.72", "v146.98", "h98.88" ] ],
+    [ "bargraph1:C1", "bargraph1:C2", "black", [ "v1.48", "h9.06", "v8.12" ] ],
+    [ "bargraph1:C2", "bargraph1:C3", "black", [ "h9.06", "v9.6" ] ],
+    [ "bargraph1:C3", "bargraph1:C4", "black", [ "h9.18", "v13.36" ] ],
+    [ "bargraph1:C4", "bargraph1:C5", "black", [ "h9.18", "v10.82", "h-9.18" ] ],
+    [ "bargraph1:C5", "bargraph1:C6", "black", [ "h8.47", "v9.6" ] ],
+    [ "bargraph1:C6", "bargraph1:C7", "black", [ "h8.47", "v9.6" ] ],
+    [ "bargraph1:C7", "bargraph1:C8", "black", [ "h8.47", "v8.86" ] ],
+    [ "bargraph1:C8", "bargraph1:C9", "black", [ "h9.18", "v7.73" ] ],
+    [ "bargraph1:C9", "bargraph1:C10", "black", [ "h9.18", "v8.72" ] ],
+    [ "bargraph1:C10", "mega:GND.3", "black", [ "h262.41", "v298.31", "h-226.01" ] ],
+    [ "bargraph1:A6", "mega:6", "green", [ "h-35.61", "v73.46", "h115.31" ] ],
+    [ "mega:GND.2", "pot1:GND", "black", [ "v62.19", "h263.24", "v-328.4", "h-147.27" ] ],
+    [ "mega:5V", "pot1:VCC", "red", [ "v78.21", "h305.03", "v-352.43", "h-159.31" ] ],
+    [ "mega:A0", "pot1:SIG", "green", [ "v20.14", "h190.94", "v-278.34", "h-99.22" ] ]
+  ],
+  "dependencies": {}
+}

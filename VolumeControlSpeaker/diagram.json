@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -146.21,
+      "left": 96.14,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -153.21, "left": 228.31, "attrs": {} }
+  ],
+  "connections": [
+    [ "pot1:GND", "mega:GND.2", "black", [ "v49.4", "h181.45", "v272.73", "h-251.84" ] ],
+    [ "pot1:SIG", "mega:A0", "green", [ "v64.79", "h158.26", "v244.14", "h-215.55" ] ],
+    [ "pot1:VCC", "mega:5V", "red", [ "v35.1", "h174.65", "v301.32", "h-292.53" ] ],
+    [ "bz1:1", "pot1:GND", "black", [ "v26.46", "h129.79", "v-48.96" ] ],
+    [ "bz1:2", "mega:9", "green", [ "v50.38", "h18.92", "v-5.98" ] ]
+  ],
+  "dependencies": {}
+}

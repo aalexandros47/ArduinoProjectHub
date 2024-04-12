@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 90.18, "left": 212.63, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -160.94, "left": 346.95, "attrs": {} },
+    { "type": "wokwi-microphone", "id": "mic", "top": -29.84, "left": 335.46, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot2", "top": -45.27, "left": 410.01, "attrs": {} }
+  ],
+  "connections": [
+    [ "oled1:SCL", "mega:21", "green", [ "v-19.01", "h108.1" ] ],
+    [ "oled1:SDA", "mega:20", "green", [ "v-11.59", "h123.05", "v249.07", "h3.73" ] ],
+    [ "pot2:SIG", "mega:A1", "green", [ "v18.12", "h269.49", "v297.08", "h-287.87" ] ],
+    [ "pot2:VCC", "mega:5V", "red", [ "v45.61", "h169.16", "v255.24", "h-254.02" ] ],
+    [ "pot2:GND", "mega:GND.3", "black", [ "v55.43", "h200.21", "v254.02", "h-257.7" ] ],
+    [ "mic:1", "mega:A0", "green", [ "v21.97", "h-228.91", "v345.96", "h299.97" ] ],
+    [ "mic:2", "mega:GND.1", "green", [ "v49.82", "h-1.03" ] ]
+  ],
+  "dependencies": {}
+}
