@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": -195.49, "left": 19.09, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -197.79, "left": 154.69, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": -191.91, "left": 279.48, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -75.23,
+      "left": 170.16,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "oled1:SCL", "imu1:SCL", "green", [ "v-50.03", "h112.42" ] ],
+    [ "oled1:SDA", "imu1:SDA", "green", [ "v-38.72", "h93.28" ] ],
+    [ "oled1:VCC", "imu1:VCC", "red", [ "v-62.68", "h77.28" ] ],
+    [ "oled1:GND", "imu1:GND", "black", [ "v-74", "h153.95" ] ],
+    [ "imu1:SDA", "mega:20", "green", [ "v-37.92", "h85.23", "v184.26", "h-72.33" ] ],
+    [ "imu1:SCL", "mega:21", "green", [ "v-30.31", "h84", "v186.54", "h-80.71" ] ],
+    [ "imu1:GND", "mega:GND.2", "black", [ "v-22.18", "h93.42", "v456.81", "h-264.48" ] ],
+    [ "imu1:VCC", "mega:5V", "red", [ "v-12.67", "h98.45", "v460.71", "h-293.73" ] ],
+    [ "btn1:2.l", "mega:GND.1", "green", [ "h0" ] ],
+    [ "btn1:1.r", "mega:2", "green", [ "v1.14", "h28.34", "v44.19", "h-24.3" ] ],
+    [ "sd1:CS", "mega:53", "green", [ "h20.07", "v116.97", "h389.66", "v173.11" ] ],
+    [ "sd1:DI", "mega:51", "green", [ "h27.71", "v134.68", "h367.66", "v155.35" ] ],
+    [ "sd1:SCK", "mega:52", "green", [ "h35.35", "v140.42", "h351.12", "v145.25", "h-121.29" ] ],
+    [ "sd1:DO", "mega:50", "green", [ "h42.23", "v153.68", "h337.83", "v174.95" ] ],
+    [ "sd1:VCC", "oled1:VCC", "red", [ "h33.67", "v-72.48", "h53.68" ] ],
+    [ "sd1:GND", "oled1:GND", "black", [ "h20.39", "v-41.19", "h56.56" ] ]
+  ],
+  "dependencies": {}
+}

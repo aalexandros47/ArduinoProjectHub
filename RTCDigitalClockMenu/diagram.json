@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-ds1307", "id": "rtc1", "top": -203.22, "left": 378.1, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -304.89, "left": 127.83, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": -197.28,
+      "left": 145.69,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn2",
+      "top": -117,
+      "left": 66.74,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn3",
+      "top": -116.64,
+      "left": 228.53,
+      "attrs": { "color": "green" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn4",
+      "top": -114.67,
+      "left": 144.57,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "oled1:GND", "rtc1:GND", "black", [ "v-33.02", "h99.19", "v-0.68", "h20.36", "v35.3" ] ],
+    [
+      "oled1:GND",
+      "mega:GND.1",
+      "black",
+      [ "v-31.66", "h-96.29", "v197.6", "h-46.72", "v116.64", "h96.01" ]
+    ],
+    [ "oled1:VCC", "rtc1:5V", "red", [ "v-25.55", "h102.64", "v46.83" ] ],
+    [ "rtc1:5V", "mega:5V", "red", [ "h-42.54", "v112.46", "h62.08", "v269.99", "h-242.64" ] ],
+    [ "oled1:SCL", "rtc1:SCL", "green", [ "v-18.11", "h78.56", "v52.4" ] ],
+    [ "oled1:SDA", "rtc1:SDA", "green", [ "v-10.12", "h58.07", "v54.18" ] ],
+    [ "rtc1:SDA", "mega:20", "green", [ "h-30.99", "v85.2", "h74.6" ] ],
+    [ "rtc1:SCL", "mega:21", "green", [ "h-15.89", "v65.04", "h82.6" ] ],
+    [ "btn2:2.l", "mega:GND.1", "green", [ "h-25.3", "v56.59", "h77.56" ] ],
+    [ "btn1:2.l", "mega:GND.1", "green", [ "h-11.78", "v1.85", "h-96.27", "v140.26", "h83.45" ] ],
+    [ "btn1:1.r", "mega:2", "green", [ "h14.41", "v38.64", "h96.3", "v135.03", "h-79.12" ] ],
+    [ "btn2:1.r", "mega:9", "green", [ "h-104.47", "v95.48", "h138.23" ] ],
+    [ "btn3:2.l", "mega:GND.1", "green", [ "h-10.8", "v62.51", "h-98.73" ] ],
+    [ "btn3:1.r", "mega:5", "green", [ "v7.66", "h7.91", "v55.1", "h-113.77" ] ],
+    [ "btn4:2.l", "btn3:2.l", "green", [ "h-6.04", "v55.31", "h85.44", "v2.09", "h4.56" ] ],
+    [ "btn4:1.r", "mega:6", "green", [ "v0.95", "h11.35", "v84.87", "h-22.92" ] ]
+  ],
+  "dependencies": {}
+}

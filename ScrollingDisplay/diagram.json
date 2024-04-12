@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled1", "top": -161.39, "left": 161.38, "attrs": {} }
+  ],
+  "connections": [
+    [ "oled1:GND", "mega:GND.1", "black", [ "v-9.74", "h-89.48" ] ],
+    [ "oled1:VCC", "mega:5V", "red", [ "v-36.71", "h272.02", "v424.7", "h-316.52" ] ],
+    [ "oled1:SCL", "mega:21", "green", [ "v-25.27", "h50.06" ] ],
+    [ "oled1:SDA", "mega:20", "green", [ "v-15.42", "h86.01" ] ]
+  ],
+  "dependencies": {}
+}

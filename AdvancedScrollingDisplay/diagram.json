@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Arnob Ghosh",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-ili9341", "id": "lcd1", "top": -390.54, "left": 116.54, "attrs": {} }
+  ],
+  "connections": [
+    [ "lcd1:VCC", "mega:5V", "red", [ "v43.38", "h-211.32", "v308.17", "h207.05" ] ],
+    [ "lcd1:GND", "mega:GND.1", "black", [ "v92.5", "h-34.1" ] ],
+    [ "lcd1:CS", "mega:53", "green", [ "v73.24", "h243.28", "v184.9" ] ],
+    [ "lcd1:MOSI", "mega:51", "green", [ "v45.31", "h254.92", "v195.49" ] ],
+    [ "lcd1:SCK", "mega:52", "green", [ "v20.27", "h287.7", "v284.09", "h-153.12" ] ],
+    [ "lcd1:MISO", "mega:50", "green", [ "v61.88", "h212.11", "v206.36" ] ],
+    [ "lcd1:D/C", "mega:9", "green", [ "v89.71", "h-10.6" ] ]
+  ],
+  "dependencies": {}
+}
