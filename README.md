@@ -16,7 +16,7 @@ What things you need to install the software and how to install them:
 ```bash
 # Example for installing the Arduino IDE
 sudo apt-get update
-sudo apt-get install arduino
+sudo apt-get install Arduino
 ```
 
 ### Installing
@@ -88,32 +88,32 @@ Go through the README files of each project for specific details.
 17. **TimerInterruptDigitalClock**
    - **Simulation**: https://wokwi.com/projects/363241818902119425
 
-17. **IMUSensorDataDisplay**
+18. **IMUSensorDataDisplay**
    - **Simulation**: https://wokwi.com/projects/363241872936299521
 
-17. **TextScrollingLEDMatrix**
+19. **TextScrollingLEDMatrix**
    - **Simulation**: https://wokwi.com/projects/363241909336569857
 
-17. **TimerInterruptDigitalClock**
+20. **TimerInterruptDigitalClock**
    - **Simulation**: https://wokwi.com/projects/363241818902119425
 
-17. **Advanced LED Control**
+21. **Advanced LED Control**
    - **Simulation**: https://wokwi.com/projects/359861875628939265
 
-17. **Toggle LED (buzzer)**
+22. **Toggle LED (buzzer)**
    - **Simulation**: https://wokwi.com/projects/359800383540049921
 
-17. **Toggle LED (BarGraph)**
+23. **Toggle LED (BarGraph)**
    - **Simulation**: https://wokwi.com/projects/358796761463525377
 
-17. **Audio peaks with Oled test**
+24. **Audio peaks with Oled test**
    - **Simulation**: https://wokwi.com/projects/365813526981991425
 
 
 
 ## Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community such an amazing place to learn, inspire, and create. I would greatly appreciate any contribution you make.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -134,5 +134,4 @@ Email - arnobg108@gmail.com
 ## Acknowledgements
 
 - [Arduino](https://arduino.cc/)
-- [Contributors and friends who helped](#)
 ```
