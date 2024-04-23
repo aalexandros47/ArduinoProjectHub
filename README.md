@@ -25,10 +25,10 @@ A step-by-step series of examples that tell you how to get a development environ
 
 ```bash
 # Clone this repo to your local machine
-git clone https://github.com/yourusername/ArduinoProjectHub.git
+git clone https://github.com/aalexandros47/Arduino_Is_Fun.git
 
 # Navigate to the project directory
-cd ArduinoProjectHub
+cd Arduino_Is_Fun
 
 # Open Arduino IDE and upload the project to your Arduino board
 ```
@@ -37,13 +37,77 @@ cd ArduinoProjectHub
 
 Go through the README files of each project for specific details.
 
-1. **Toggle LED (buzzer)**
-   - **Simulation**: [https://wokwi.com/projects/359800383540049921](#)
+1. **UARTBuzzerControl**
+   - **Simulation**: https://wokwi.com/projects/363238804667204609
 
-2. **Project Name 2**
-   - **Description**: Brief description of the project.
-   - **Components Needed**: List of components required.
-   - **Code**: [Link to project folder or code](#)
+2. **AdvancedUARTControl**
+   - **Simulation**: https://wokwi.com/projects/363238934640319489
+     
+3. **RTCDigitalClock**
+   - **Simulation**: https://wokwi.com/projects/363239004323443713
+          
+4. **IMUSpiritLevel**
+   - **Simulation**: https://wokwi.com/projects/363239093476531201
+       
+5. **NightActivatedLDR**
+   - **Simulation**: https://wokwi.com/projects/363239267242376193
+     
+6. **AdjustableLEDBrightness**
+   - **Simulation**: https://wokwi.com/projects/363239341748961281
+     
+7. **VolumeControlSpeaker**
+   - **Simulation**: https://wokwi.com/projects/363239397951594497
+       
+8. **VoiceActivatedAccessControl**
+   - **Simulation**: https://wokwi.com/projects/363239485157477377
+     
+9. **LCDWaveformGenerator**
+   - **Simulation**: https://wokwi.com/projects/363239739067031553
+
+10. **AdvancedScrollingDisplay**
+   - **Simulation**: https://wokwi.com/projects/363240712245292033
+  
+11. **EEPROMStudentIDDisplay**
+   - **Simulation**: https://wokwi.com/projects/363241399297596417
+  
+12. **RTCDigitalClockMenu**
+   - **Simulation**: https://wokwi.com/projects/363241496281453569
+  
+13. **ScrollingDisplay**
+   - **Simulation**: https://wokwi.com/projects/363240559189861377
+  
+14. **IMUDataLogger**
+   - **Simulation**: https://wokwi.com/projects/363241700164502529
+
+15. **InterruptSymbolDisplay**
+   - **Simulation**: https://wokwi.com/projects/363241760765912065
+
+16. **MultiSymbolInterruptDisplay**
+   - **Simulation**: https://wokwi.com/projects/363241783107927041
+
+17. **TimerInterruptDigitalClock**
+   - **Simulation**: https://wokwi.com/projects/363241818902119425
+
+17. **IMUSensorDataDisplay**
+   - **Simulation**: https://wokwi.com/projects/363241872936299521
+
+17. **TextScrollingLEDMatrix**
+   - **Simulation**: https://wokwi.com/projects/363241909336569857
+
+17. **TimerInterruptDigitalClock**
+   - **Simulation**: https://wokwi.com/projects/363241818902119425
+
+17. **Advanced LED Control**
+   - **Simulation**: https://wokwi.com/projects/359861875628939265
+
+17. **Toggle LED (buzzer)**
+   - **Simulation**: https://wokwi.com/projects/359800383540049921
+
+17. **Toggle LED (BarGraph)**
+   - **Simulation**: https://wokwi.com/projects/358796761463525377
+
+17. **Audio peaks with Oled test**
+   - **Simulation**: https://wokwi.com/projects/365813526981991425
 
 
 
