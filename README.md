@@ -68,46 +68,46 @@ Go through the README files of each project for specific details.
       - **Simulation**: https://wokwi.com/projects/363240712245292033
   
 11. **EEPROMStudentIDDisplay**
-   - **Simulation**: https://wokwi.com/projects/363241399297596417
+      - **Simulation**: https://wokwi.com/projects/363241399297596417
   
 12. **RTCDigitalClockMenu**
-   - **Simulation**: https://wokwi.com/projects/363241496281453569
+      - **Simulation**: https://wokwi.com/projects/363241496281453569
   
 13. **ScrollingDisplay**
-   - **Simulation**: https://wokwi.com/projects/363240559189861377
+      - **Simulation**: https://wokwi.com/projects/363240559189861377
   
 14. **IMUDataLogger**
-   - **Simulation**: https://wokwi.com/projects/363241700164502529
+      - **Simulation**: https://wokwi.com/projects/363241700164502529
 
 15. **InterruptSymbolDisplay**
-   - **Simulation**: https://wokwi.com/projects/363241760765912065
+      - **Simulation**: https://wokwi.com/projects/363241760765912065
 
 16. **MultiSymbolInterruptDisplay**
-   - **Simulation**: https://wokwi.com/projects/363241783107927041
+      - **Simulation**: https://wokwi.com/projects/363241783107927041
 
 17. **TimerInterruptDigitalClock**
-   - **Simulation**: https://wokwi.com/projects/363241818902119425
+      - **Simulation**: https://wokwi.com/projects/363241818902119425
 
 18. **IMUSensorDataDisplay**
-   - **Simulation**: https://wokwi.com/projects/363241872936299521
+      - **Simulation**: https://wokwi.com/projects/363241872936299521
 
 19. **TextScrollingLEDMatrix**
-   - **Simulation**: https://wokwi.com/projects/363241909336569857
+      - **Simulation**: https://wokwi.com/projects/363241909336569857
 
 20. **TimerInterruptDigitalClock**
-   - **Simulation**: https://wokwi.com/projects/363241818902119425
+      - **Simulation**: https://wokwi.com/projects/363241818902119425
 
 21. **Advanced LED Control**
-   - **Simulation**: https://wokwi.com/projects/359861875628939265
+      - **Simulation**: https://wokwi.com/projects/359861875628939265
 
 22. **Toggle LED (buzzer)**
-   - **Simulation**: https://wokwi.com/projects/359800383540049921
+      - **Simulation**: https://wokwi.com/projects/359800383540049921
 
 23. **Toggle LED (BarGraph)**
-   - **Simulation**: https://wokwi.com/projects/358796761463525377
+      - **Simulation**: https://wokwi.com/projects/358796761463525377
 
 24. **Audio peaks with Oled test**
-   - **Simulation**: https://wokwi.com/projects/365813526981991425
+      - **Simulation**: https://wokwi.com/projects/365813526981991425
 
 
 
