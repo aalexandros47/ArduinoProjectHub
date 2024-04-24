@@ -65,7 +65,7 @@ Go through the README files of each project for specific details.
    - **Simulation**: https://wokwi.com/projects/363239739067031553
 
 10. **AdvancedScrollingDisplay**
-   - **Simulation**: https://wokwi.com/projects/363240712245292033
+- **Simulation**: https://wokwi.com/projects/363240712245292033
   
 11. **EEPROMStudentIDDisplay**
    - **Simulation**: https://wokwi.com/projects/363241399297596417
